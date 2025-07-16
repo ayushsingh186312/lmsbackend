@@ -8,7 +8,7 @@ A comprehensive Node.js backend application for Learning Management System with 
 - User Registration & Login
 - JWT Authentication
 - Password hashing with bcrypt
-- Role-based access control (Student, Instructor, Admin)
+- Role-based access control (Student, Admin)
 - Protected routes middleware
 - User profile management
 - Password change functionality
@@ -57,7 +57,7 @@ A comprehensive Node.js backend application for Learning Management System with 
 
 ### User Model
 - Name, email, password (hashed)
-- Role (student, instructor, admin)
+- Role (student, admin)
 - Account status and timestamps
 
 ### Course Model
