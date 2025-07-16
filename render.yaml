@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: lms-backend-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    # Add your environment variables in Render dashboard:
+    # MONGO_URI - Your MongoDB connection string
+    # JWT_SECRET - Your JWT secret key
